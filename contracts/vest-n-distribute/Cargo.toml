@@ -1,0 +1,30 @@
+[package]
+name = "vest-n-distribute"
+version = "0.9.1"
+authors = ["Nitin Khobragade <nitin.khobragade@github.com>"]
+edition = "2018"
+description = "Staking logic for clubs in Crypto 11 ecosystem"
+license = "Apache-2.0"
+repository = "https://github.com/crll9/contracts"
+homepage = "https://crypto11.me"
+documentation = "https://docs.cosmwasm.com"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[features]
+backtraces = ["cosmwasm-std/backtraces"]
+# use library feature to disable all instantiate/execute/query exports
+library = []
+
+[dependencies]
+cw20 = { path = "../../packages/cw20", version = "0.9.1" }
+cw2 = { path = "../../packages/cw2", version = "0.9.1" }
+cw-storage-plus = { path = "../../packages/storage-plus", version = "0.9.1" }
+cosmwasm-std = { version = "0.16.0" }
+schemars = "0.8.1"
+serde = { version = "1.0.103", default-features = false, features = ["derive"] }
+thiserror = { version = "1.0.23" }
+
+[dev-dependencies]
+cosmwasm-schema = { version = "0.16.0" }

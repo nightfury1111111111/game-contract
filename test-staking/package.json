@@ -1,0 +1,22 @@
+{
+    "name": "test-staking",
+    "version": "1.0.0",
+    "description": "For testing staking on clubs",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Nitin Khobragade",
+    "license": "ISC",
+    "dependencies": {
+      "chai": "^4.3.6",
+      "@terra-money/terra.js": "^2.0.16"
+    },
+    "devDependencies": {
+      "@terra-money/terra.js": "^2.0.16",
+      "chalk": "^4.1.2"
+    },
+    "type": "module"
+  }
+  

@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ReceivedMsg",
+  "anyOf": [
+    {
+      "type": "object",
+      "required": [
+        "increase_reward_amount"
+      ],
+      "properties": {
+        "increase_reward_amount": {
+          "$ref": "#/definitions/IncreaseRewardAmountCommand"
+        }
+      },
+      "additionalProperties": false
+    }
+  ],
+  "definitions": {
+    "IncreaseRewardAmountCommand": {
+      "type": "object",
+      "required": [
+        "reward_from"
+      ],
+      "properties": {
+        "reward_from": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

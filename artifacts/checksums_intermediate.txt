@@ -1,0 +1,1 @@
+c38378901cc5a49efb0bd2a6e11f51051cffbb5da2ef1da8addb8c659f1dc97d  target/wasm32-unknown-unknown/release/gaming_pool.wasm

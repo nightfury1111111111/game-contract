@@ -1,0 +1,4 @@
+CosmWasm-Plus: A collection of production-quality CosmWasm contracts
+
+Different crates in this repo may be either Apache-2.0 or AGPL-3.0 licensed.
+Please refer to the NOTICE file in each crate (and the Cargo.toml metadata)

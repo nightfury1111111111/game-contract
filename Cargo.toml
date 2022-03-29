@@ -1,0 +1,78 @@
+[workspace]
+members = ["packages/*", "contracts/*"]
+
+[profile.release.package.cw1-subkeys]
+codegen-units = 1
+incremental = false
+
+[profile.release.package.cw1-whitelist]
+codegen-units = 1
+incremental = false
+
+[profile.release.package.cw3-fixed-multisig]
+codegen-units = 1
+incremental = false
+
+[profile.release.package.cw3-flex-multisig]
+codegen-units = 1
+incremental = false
+
+[profile.release.package.cw4-group]
+codegen-units = 1
+incremental = false
+
+[profile.release.package.cw4-stake]
+codegen-units = 1
+incremental = false
+
+[profile.release.package.cw20-atomic-swap]
+codegen-units = 1
+incremental = false
+
+[profile.release.package.cw20-base]
+codegen-units = 1
+incremental = false
+
+[profile.release.package.vest-n-distribute]
+codegen-units = 1
+incremental = false
+
+[profile.release.package.cw20-bonding]
+codegen-units = 1
+incremental = false
+
+[profile.release.package.cw20-escrow]
+codegen-units = 1
+incremental = false
+
+[profile.release.package.cw20-ics20]
+codegen-units = 1
+incremental = false
+
+[profile.release.package.cw20-merkle-airdrop]
+codegen-units = 1
+incremental = false
+
+[profile.release.package.cw20-staking]
+codegen-units = 1
+incremental = false
+
+[profile.release.package.cw721-base]
+codegen-units = 1
+incremental = false
+
+[profile.release.package.cw721-metadata-uri]
+codegen-units = 1
+incremental = false
+
+[profile.release.package.cw1155-base]
+codegen-units = 1
+incremental = false
+
+[profile.release]
+rpath = false
+lto = true
+overflow-checks = true
+opt-level = 3
+debug = false
+debug-assertions = false
